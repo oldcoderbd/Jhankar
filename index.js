@@ -27,6 +27,34 @@
 // // sum = sum.toFixed(1);
 // console.log(sum.toFixed(1));
 
-var winner = 49.56 / 30;
-winner = Math.round(winner);
-console.log(winner);
+// var winner = 49.56 / 30;
+// winner = Math.round(winner);
+// console.log(winner);
+
+// --------Grade Sheet---------
+var mark = 58;
+
+if(mark >= 90){
+    console.log("Tui Golden A+ paisos")
+}
+else if(mark >= 80){
+    console.log("Tui A+ paisos")
+}
+else if(mark >= 70){
+    console.log("Tui A paisos")
+}
+else if(mark >= 60){
+    console.log("Tui A- paisos")
+}
+else if(mark >= 50){
+    console.log("Tui B paisos")
+}
+else if(mark >= 40){
+    console.log("Tui C paisos")
+}
+else if(mark >= 33){
+    console.log("Tui D paisos")
+}
+else{
+    console.log("Tui Fail korsos")
+}
