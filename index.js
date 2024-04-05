@@ -15,15 +15,18 @@
 
 
 
-var num1 = "26.6";
-var num2 = 19;
-num1 = parseFloat(num1);
-num1 = parseInt(num1)
-console.log(num1 + num2);
+// var num1 = "26.6";
+// var num2 = 19;
+// num1 = parseFloat(num1);
+// num1 = parseInt(num1)
+// console.log(num1 + num2);
 
-var num3 = 0.1;
-var num4 = 0.2;
-var sum = num3 + num4;
-// sum = sum.toFixed(1);
-console.log(sum.toFixed(1));
+// var num3 = 0.1;
+// var num4 = 0.2;
+// var sum = num3 + num4;
+// // sum = sum.toFixed(1);
+// console.log(sum.toFixed(1));
 
+var winner = 49.56 / 30;
+winner = Math.round(winner);
+console.log(winner);
