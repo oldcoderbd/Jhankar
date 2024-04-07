@@ -65,3 +65,14 @@
 // }
 
 // --------Grade Sheet---------
+
+
+
+
+
+var fri = ["Ahsan", "Shawal", "Himel", "Harun"];
+
+for (var i = 0; i < fri.length; i++){
+    var gf = fri[i];
+    console.log(gf);
+}
