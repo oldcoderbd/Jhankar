@@ -70,9 +70,34 @@
 
 
 
-var fri = ["Ahsan", "Shawal", "Himel", "Harun"];
+// var fri = ["Ahsan", "Shawal", "Himel", "Harun"];
 
-for (var i = 0; i < fri.length; i++){
-    var gf = fri[i];
-    console.log(gf);
+// for (var i = 0; i < fri.length; i++){
+//     var gf = fri[i];
+//     console.log(gf);
+// }
+
+
+// var namta = 3;
+
+// for (i = 1; i <= 10; i++){
+//     var namtaHolo = (`(${namta} x ${i})` = (namta * i));
+//     console.log(namtaHolo);
+// }
+
+
+
+// function love(){
+//     console.log("Hello baby");
+//     console.log("Hello baby02");
+//     console.log("Hello baby03");
+// }
+// love();
+
+
+function dubbleIt(num){
+    result = num * 2;
+    return result;
 }
+var one = dubbleIt(100);
+console.log(one);
