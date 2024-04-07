@@ -95,9 +95,20 @@
 // love();
 
 
-function dubbleIt(num){
-    result = num * 2;
-    return result;
+// function dubbleIt(num){
+//     result = num * 2;
+//     return result;
+// }
+// var one = dubbleIt(100);
+// console.log(one);
+
+function inchToFeet(feet){
+    naniFeet = feet / 12;
+    return naniFeet;
 }
-var one = dubbleIt(100);
-console.log(one);
+var res = inchToFeet(300);
+console.log(res);
+var res2 = inchToFeet(500);
+console.log(res2);
+var res3 = inchToFeet(260);
+console.log(res3);
