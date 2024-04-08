@@ -116,20 +116,32 @@
 
 
 
-function leapYear(year){
-    let leap = year % 4;
-    if (leap == 0){
-    return true;
-}
-    else{
-        return false;
-    }
+// function leapYear(year){
+//     let leap = year % 4;
+//     if (leap == 0){
+//     return true;
+// }
+//     else{
+//         return false;
+//     }
 
+// }
+// let ck = leapYear(2027);
+// if (ck == true){
+//     console.log("is a leap year");
+// }
+// else{
+//     console.log("not a leap year");
+// }
+
+
+
+function leap(year){
+    if((year % 400 == 0) || (year % 4 == 0) && (year % 100 !== 0)){
+        console.log(year + " is a leap year");
+    }
+    else{
+        console.log(year + " is not a leap year")
+    }
 }
-let ck = leapYear(2027);
-if (ck == true){
-    console.log("is a leap year");
-}
-else{
-    console.log("not a leap year");
-}
+leap(2001);
