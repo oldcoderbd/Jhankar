@@ -9,7 +9,7 @@
 // // console.log(typeof age);
 // // console.log(typeof gender);
 // // console.log(typeof single);
-// console.log(promise.split('desh'));
+// console.log(promise.split('love'));
 
 
 
@@ -102,13 +102,34 @@
 // var one = dubbleIt(100);
 // console.log(one);
 
-function inchToFeet(feet){
-    naniFeet = feet / 12;
-    return naniFeet;
+// function inchToFeet(feet){
+//     naniFeet = feet / 12;
+//     return naniFeet;
+// }
+// var res = inchToFeet(300);
+// console.log(res);
+// var res2 = inchToFeet(500);
+// console.log(res2);
+// var res3 = inchToFeet(260);
+// console.log(res3);
+
+
+
+
+function leapYear(year){
+    let leap = year % 4;
+    if (leap == 0){
+    return true;
 }
-var res = inchToFeet(300);
-console.log(res);
-var res2 = inchToFeet(500);
-console.log(res2);
-var res3 = inchToFeet(260);
-console.log(res3);
+    else{
+        return false;
+    }
+
+}
+let ck = leapYear(2027);
+if (ck == true){
+    console.log("is a leap year");
+}
+else{
+    console.log("not a leap year");
+}
