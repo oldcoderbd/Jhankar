@@ -135,13 +135,33 @@
 // }
 
 
+//------Leap year check------
+// function leap(year){
+//     if((year % 400 == 0) || (year % 4 == 0) && (year % 100 !== 0)){
+//         console.log(year + " is a leap year");
+//     }
+//     else{
+//         console.log(year + " is not a leap year")
+//     }
+// }
+// leap(2001);
 
-function leap(year){
-    if((year % 400 == 0) || (year % 4 == 0) && (year % 100 !== 0)){
-        console.log(year + " is a leap year");
+
+
+// -----Factorial-----
+// var factorial = 1;
+// for(var i = 1; i <= 10; i++){
+//     factorial = factorial * i;
+//     console.log(i, factorial);
+// }
+
+//------Factorial with function----------
+function factorial(n){
+    var factorial = 1;
+    for(var i = 1; i <= n; i++){
+        factorial = factorial * i;
     }
-    else{
-        console.log(year + " is not a leap year")
-    }
+    return factorial;
 }
-leap(2001);
+var result = factorial(10);
+console.log(result);
