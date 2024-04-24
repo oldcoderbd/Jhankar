@@ -156,12 +156,20 @@
 // }
 
 //------Factorial with function----------
-function factorial(n){
-    var factorial = 1;
-    for(var i = 1; i <= n; i++){
-        factorial = factorial * i;
-    }
-    return factorial;
+// function factorial(n){
+//     var factorial = 1;
+//     for(var i = 1; i <= n; i++){
+//         factorial = factorial * i;
+//     }
+//     return factorial;
+// }
+// var result = factorial(10);
+// console.log(result);
+
+
+//-------Fibonacci---------
+var fibona = [0,1];
+for (var i = 2; i <= 10; i++){
+    fibona[i] = fibona[i-1] + fibona[i-2];
 }
-var result = factorial(10);
-console.log(result);
+console.log(fibona);
